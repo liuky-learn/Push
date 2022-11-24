@@ -1,4 +1,4 @@
-name: Your Github Workflow name
+name: Python_Push_v1
 on:
   workflow_dispatch:
   schedule:
