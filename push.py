@@ -49,7 +49,7 @@ class SendMessage():
     def get_tq(self):
         url = 'http://www.weather.com.cn/weather/101180801.shtml'
         sysdate = datetime.date.today()
-        r = requests.get(url, timeout=180)  # 用requests抓取网页信息
+        r = requests.get(url, timeout=300)  # 用requests抓取网页信息
         r.raise_for_status()  # 可以让程序产生异常时停止程序
         r.encoding = r.apparent_encoding  # 编码格式
         html = r.text
