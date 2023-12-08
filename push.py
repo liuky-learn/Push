@@ -6,7 +6,6 @@ import json
 import datetime
 from bs4 import BeautifulSoup
 from zhdate import ZhDate
-import time
  
 class SendMessage():
     def __init__(self):
